@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 30px 25px;
+    background-color: #21222A;
+    font-size: 22px;
+}
+
+.navbar--logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar--subtitle {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+.navbar--title {
+    color: #61DAFB;
+    margin-right: auto;
+    font-weight: 700;
+}
